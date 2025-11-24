@@ -1,50 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>ভিডিও প্লেয়ার</title>
 
     <style>
         body {
             font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            padding: 30px;
             text-align: center;
-            padding: 40px;
-            background: #f5f5f5;
         }
-        h1 {
-            color: #333;
-        }
-        .box {
+        .player {
             background: white;
             padding: 20px;
             border-radius: 12px;
-            width: 80%;
-            max-width: 600px;
+            width: 90%;
+            max-width: 800px;
             margin: auto;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 12px rgba(0,0,0,0.1);
         }
-        a.button {
-            display: inline-block;
-            padding: 10px 20px;
-            background: #0070f3;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-        a.button:hover {
-            background: #005ad3;
+        video {
+            width: 100%;
+            border-radius: 12px;
         }
     </style>
 </head>
 <body>
 
-    <div class="box">
-        <h1>Welcome to My Website</h1>
-        <p>This website is hosted using GitHub Pages.</p>
+    <div class="player">
+        <h2>আমার ভিডিও</h2>
 
-        <a class="button" href="#">Click Me</a>
+        <video controls>
+            <source src="https://raw.githubusercontent.com/shabbirdevmsr/video/main/DownloadedDrive/1.%20%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A6%AF%E0%A6%BC/1.1%20-%20%E0%A6%98%E0%A6%B0%E0%A7%87%20%E0%A6%AC%E0%A6%B8%E0%A7%87%20%E0%A6%86%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%B6%E0%A7%80%E0%A6%AA%20%E0%A6%95%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%B8/video.mp4" type="video/mp4">
+            আপনার ব্রাউজার ভিডিও ট্যাগকে সমর্থন করে না।
+        </video>
     </div>
 
 </body>
